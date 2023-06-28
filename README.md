@@ -14,6 +14,12 @@ This project has not only strengthened my understanding of backend development b
 [openweathermap](https://openweathermap.org)
 
 
+## 🔗 Hosted Website
+https://nodeweatherapp-4hsj.onrender.com
+
+
+
+
 
 ## Frontend
 
