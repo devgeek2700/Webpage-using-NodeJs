@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+.main_container{
+    width: 100%;
+    height: 80vh;
+    padding: 100px;
+}
+
+.left_text{
+    padding: 30px;
+}
+
+#weat_span{
+    color: rgb(37, 233, 239);
+}
+
+.weat_img{
+    border-radius: 10px;
+}
+.left_text p{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.left_text h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.fa-snowflake{
+    color: rgb(37, 233, 239);
+    margin: 5px;
+}
+
+.logo{
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+
+/* button-home */
+.button-27 {
+  appearance: none;
+  background-color: #19b3d9;
+  border: 2px solid #19b3d9;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #151212;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+/* About page */
+
+#about_img_cont{
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+#about-cont-l{
+    margin-top: -60px;
+}
+
+.img_field{
+    filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
+}
+
+/* 404 Page */
+.err_cont{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/404_img2.jpg");
+    position: relative;
+}
+
+.img_err{
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+

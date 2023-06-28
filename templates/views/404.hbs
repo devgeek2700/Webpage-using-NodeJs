@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>404 Error Webpage</title>
+       {{>headerlinks}}
+
+</head>
+<body>
+                
+{{>navbar}}
+
+    <!-- main content -->
+    <div class="main_container">
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto" >
+                    <div class="row">
+                        <div class="col-md-6 col-12 main_header_left">
+                            <!-- right side -->
+                            <div class="left_text" id="about-cont-l">
+                                <h1>Oops! <span id="weat_span">404 Error Occured...</span> <br>{{ErrorMsg}}</h1>
+                                <a href="/"><button class="button-27" role="button">CLICK HERE</button></a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 main_header_right">
+                            <!-- left side -->
+                            <div class="right_text" id="about_img_cont">
+                                <figure>
+                                    <img src="Images/404_img2.jpg" alt="neha" class="img_err" title="about-img">
+                                </figure>
+                            </div>
+                            </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{{>footer}}
+
+    <script src="Js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Webpage</title>
+    <link rel="stylesheet" href="css/Weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Shape shape-1"></div>
+        <div class="Shape shape-2"></div>
+        <div class="Cont-shape">
+            <div class="search-cont">
+                <input type="text" placeholder="Enter any City Name" id="City" value="Mumbai">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="Js/Weather_key.js"></script>
+    <script src="Js/Weather.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Webpage</title>
+       {{>headerlinks}}
+
+
+</head>
+<body>
+
+    {{>navbar}}
+   <div class="container">
+        <div class="row height d-flex justify-content-center align-items-center">
+            <div class="col-md-8">
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" class="form-control" placeholder="Search Your City Name Here?" id="cityName" autocomplete="off">
+                    <button class="btn btn-primary" id="submit_Btn">Search</button>
+                </div>  
+
+                <div class="tempinfo_box">
+                    <div class="top_layer">
+                        <p id="day">Monday</p>
+                        <p id="DayNow">27 OCT</p>
+                    </div>
+                    <div class="main_layer">
+                        <p id="city_name">Mumbai</p>
+
+                        <div class="down_layer data_hide">
+                            <p id="temp"><span>00</span><sup>o</sup>C</p>
+                            <p id="clouds"><i class="fa-solid fa-cloud fa-beat"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+         </div>
+    </div>
+
+
+ {{>footer}}
+    <script src="Js/main.js"></script>
+
+</body>
+</html>
+
+
+css****
+/* weather page */
+
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+.fa-cloud{
+    color: #19b3d9;
+}
+
+.tempinfo_box{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(57, 72, 80);
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.top_layer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    text-transform: capitalize;
+    color: #FFF;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    /* color: black;     */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: bolder;
+    background-color: rgb(79, 101, 113);
+}
+
+#city_name{
+    width: 100%;
+    height: 50px;
+    color: #FFF;
+    background-color: rgb(57, 72, 80);
+    text-align: center;
+    padding: 5px;    
+    text-transform: capitalize;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+}
+
+.down_layer{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    padding: 20px;
+    font-family: 'Staatliches', cursive;
+    font-size: 150px;
+    background-color: rgb(57, 72, 80);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+#clouds{
+    margin-left: -70px;
+    font-size: 120px;
+    color: #FFF;
+}

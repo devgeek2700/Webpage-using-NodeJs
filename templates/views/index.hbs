@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WeatherApp Webpage</title>
+   {{>headerlinks}}
+   
+</head>
+<body>
+
+{{>navbar}}
+
+    <!-- main content -->
+  <div class="main_container">
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto" >
+                    <div class="row">
+                        <div class="col-md-6 col-12 main_header_left">
+                            <!-- right side -->
+                            <div class="left_text">
+                                <p>Welcome to <br> Weather App</p>
+                                <h1>Get The Latest <span id="weat_span">Weather</span> Info Of Your City.</h1>
+                                <a href="/weather"><button class="button-27" role="button">CHECK NOW  </button></a>
+
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 main_header_right">
+                            <!-- left side -->
+                            <div class="right_text">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="Images/draw1.webp" width="500px" height="400px" class="weat_img">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="Images/draw2.webp" width="500px" height="400px" class="weat_img">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="Images/draw3.jpg" width="500px" height="400px" class="weat_img">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+ {{>footer}}
+    
+
+    <script src="Js/main.js"></script>
+</body>
+</html>

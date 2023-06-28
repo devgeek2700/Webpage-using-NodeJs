@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Webpage</title>
+       {{>weatherlinks}}
+
+</head>
+<body>
+
+    {{>navbar}}
+
+    <div class="container">
+        <div class="Shape shape-1"></div>
+        <div class="Shape shape-2"></div>
+        <div class="Cont-shape">
+            <div class="search-cont">
+                <input type="text" placeholder="Enter any City Name" id="City" value="Mumbai">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="Js/Weather_key.js"></script>
+    <script src="Js/Weather.js"></script>
+</body>
+</html>
