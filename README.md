@@ -1,8 +1,8 @@
 
 # Weather Webpage Using NodeJs
 
-I have created a Weather website using the backend framework of Node.js and Express.js. This is random website I have created during learning backend framework Node.js and Express.js.
-In this project, I have learn how frontend and backend is integrated in a website.
+I have created a Weather website using the backend framework of Node.js and Express.js. This is random website I have created during learning backend framework Node.js and Express.js and hosted this website, the link is given below.
+In this project, I have learn how frontend and backend is integrated in a website and how to host a website.
 
 I was able to harness its asynchronous and event-driven nature, allowing for efficient and responsive handling of requests. Express.js provided me with a flexible and minimalist framework to structure my application, making routing and middleware implementation a breeze.
 
