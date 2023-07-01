@@ -14,7 +14,7 @@ This project has not only strengthened my understanding of backend development b
 [openweathermap](https://openweathermap.org)
 
 
-## 🔗 Hosted Website Url
+## 🔗 Hosted Website Link
 https://nodeweatherapp-4hsj.onrender.com
 
 
